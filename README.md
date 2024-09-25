@@ -32,7 +32,7 @@ Usese Tecnology for make this Application
 4. npm install
 
 ```bash
-    npm install && npm run dev
+    npm instal
 ```
 
 5. Generate Key
@@ -50,19 +50,25 @@ Usese Tecnology for make this Application
 
 8. Or if you use the sqlite then don't needed to create database because sqlite database file is exists in database folder
 
-9. Run the project run command
+9. npm run can't close this command
+
+```bash
+    npm run dev
+```
+
+10. Run the project run command
 
 ```bash
     php artisan serve
 ```
 
-10. Reverb Start
+11. Reverb Start
 
 ```bash
-    php aritsan reverb:start
+    php artisan reverb:start
 ```
 
-11. Login Access
+12. Login Access
 
 ```bash
     test@gmail.com
