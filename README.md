@@ -2,55 +2,62 @@
 
 ![Getting Started](/public/chat.png)
 
-Usese Tecnology for make this application
+Usese Tecnology for make this Application
 
 -   **Laravel**
 -   **Livewire**
 -   **Tailwind Css**
 -   **Reverb**
 
-## Install process this Chat App
+## Install this Chat App with npm
+
+1. Clone the repo and open directory
 
 ```bash
     git clone https://github.com/smshamimsr/chat-app.git && cd chat-app
 ```
 
-## Security Vulnerabilities
+2. Copy .env File
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash
+    cp .env.example .env
+```
 
-## Laravel Sponsors
+3. Composer Install
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+```bash
+    composer install
+```
 
-### Premium Partners
+4. npm install
 
--   **[Vehikl](https://vehikl.com/)**
--   **[Tighten Co.](https://tighten.co)**
--   **[WebReinvent](https://webreinvent.com/)**
--   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
--   **[64 Robots](https://64robots.com)**
--   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
--   **[Cyber-Duck](https://cyber-duck.co.uk)**
--   **[DevSquad](https://devsquad.com/hire-laravel-developers)**
--   **[Jump24](https://jump24.co.uk)**
--   **[Redberry](https://redberry.international/laravel/)**
--   **[Active Logic](https://activelogic.com)**
--   **[byte5](https://byte5.de)**
--   **[OP.GG](https://op.gg)**
+```bash
+    npm install && npm run dev
+```
 
-## Contributing
+5. Artisan Key Generate
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```bash
+    php artisan key:generate
+```
 
-## Code of Conduct
+6. Create Database in mysql server and conect to env file
+7. Migrate Database with Seed
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+    php artisan migrate --seed
+```
 
-## Security Vulnerabilities
+8. Or if you use the sqlite then don't needed to create database because sqlite datase file is exists in database folder
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+9. Run the project run command
 
-## License
+```bash
+    php artisan serve
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+10. Reverb Start
+
+```bash
+    php aritsan reverb:start
+```
