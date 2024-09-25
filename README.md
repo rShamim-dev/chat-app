@@ -35,7 +35,7 @@ Usese Tecnology for make this Application
     npm install && npm run dev
 ```
 
-5. Artisan Key Generate
+5. Generate Key
 
 ```bash
     php artisan key:generate
@@ -48,7 +48,7 @@ Usese Tecnology for make this Application
     php artisan migrate --seed
 ```
 
-8. Or if you use the sqlite then don't needed to create database because sqlite datase file is exists in database folder
+8. Or if you use the sqlite then don't needed to create database because sqlite database file is exists in database folder
 
 9. Run the project run command
 
@@ -60,4 +60,17 @@ Usese Tecnology for make this Application
 
 ```bash
     php aritsan reverb:start
+```
+
+11. Login Access
+
+```bash
+    test@gmail.com
+    12345678
+
+    user@gmail.com
+    12345678
+
+    admin@gmail.com
+    12345678
 ```
