@@ -2,14 +2,20 @@
 
 ![Getting Started](/public/chat.png)
 
-## Install process this Chat App
-
-This is Chat Application. Usese Tecnology for make this application
+Usese Tecnology for make this application
 
 -   **Laravel**
 -   **Livewire**
 -   **Tailwind Css**
 -   **Reverb**
+
+## Install process this Chat App
+
+```bash
+    git clone https://github.com/smshamimsr/chat-app.git && cd chat-app
+```
+
+## Security Vulnerabilities
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
